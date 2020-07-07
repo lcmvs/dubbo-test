@@ -1,0 +1,4 @@
+dubbo:
+  registry:
+    address: zookeeper://112.74.40.155:2181
+    file:

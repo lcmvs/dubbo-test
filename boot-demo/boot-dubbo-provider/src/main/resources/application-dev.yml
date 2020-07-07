@@ -1,0 +1,5 @@
+dubbo:
+  registry:
+    address: zookeeper://xxxx:xx
+
+

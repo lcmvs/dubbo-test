@@ -1,0 +1,17 @@
+server:
+  port: 20702
+
+spring:
+  profiles:
+    active: lcm
+  application:
+    name: boot-dubbo-consumer
+
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20802
+  application:
+    name: ${spring.application.name}
+

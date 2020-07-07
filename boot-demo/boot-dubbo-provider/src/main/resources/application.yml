@@ -1,0 +1,19 @@
+server:
+  port: 20701
+
+spring:
+  profiles:
+    active: lcm
+  application:
+    name: boot-dubbo-provider
+
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20801
+  application:
+    name: ${spring.application.name}
+  scan:
+    base-packages: com.lcm.test.dubbo.bootdubboprovider.service
+
